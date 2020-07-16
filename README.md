@@ -7,6 +7,8 @@
 - collection view와 함께 동작하는 특수한 타입의 데이터 소스
 
 - collection view의 데이터를 관리하고 UI를 업데이트할 수 있다
+- 전체가 아닌 변경되는 데이터만 reload
+  - 변경 데이터에 대해서만 애니메이션을 적용할 수 있음 -> 부드러운 애니메이션 효과 쉽게 적용 가능
 
 - [Apple Document](https://developer.apple.com/documentation/uikit/uicollectionviewdiffabledatasource)
 
